@@ -1,0 +1,117 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+/*Body*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+}
+
+/*Header*/
+
+header {
+    font-weight: 500;
+}
+
+header .titulo {
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    padding: 3rem;
+    text-transform: uppercase;
+}
+
+header .portada img {
+    width: 100vw;
+}
+
+.descripcion {
+    background-color: black;
+    color: #ffff;
+    padding: 0 15%;
+    box-sizing: border-box;
+}
+
+.descripcion .imagen {
+    padding-left: 5%;
+}
+
+.descripcion .imagen img {
+    width: 100%;
+}
+
+.descripcion .parrafo {
+    font-weight: 300;
+}
+
+.descripcion td {
+    width: 50%;
+    padding: 5% 0px;
+}
+
+/*Caracteristicas*/
+.caracteristicas {
+    color: #ffff;
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 3rem 25%;
+}
+
+.caracteristicas h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.caracteristicas i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    display: inline-block;
+    width: 30%;
+    padding: 1%;
+}
+
+.caracteristicas p {
+    font-weight: 300;
+}
+
+/*Galeria de imagenes*/
+
+.div_padre {
+    text-align: center;
+    padding: 10px;
+}
+
+.div_hijo {
+    display: inline-block;
+}
+
+.img {
+    height: 202px;
+    width: 350px;
+    margin: 30px;
+    border: 1px;
+}
+
+/*Pie de pagina*/
+
+.footer {
+    background-color: #1E1A13;
+    color: #ffff;
+    text-align: center;
+    padding: 3rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
